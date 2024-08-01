@@ -1,0 +1,152 @@
+html {
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+.font-F9FAF8 {
+    color: #F9FAF8;
+}
+
+.font-e5e7eb {
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.header-box-box {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    width: 100vw;
+    height: 60px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    min-width: 1029px;
+}
+
+.header-logo {
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.header-nav {
+    font-size: 16px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    gap: 22px;
+    list-style-type: none;
+    padding: 0;
+    margin: 14px 0 0 0;
+}
+
+.header-mid-box-box {
+    display: flex;
+    background-color: #1F2937;
+    width: 100vw;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-mid-box {
+    display: flex;
+    width: 1029px;
+    height: 210px;
+    justify-content: space-between;
+    transform: translateY(-15px);
+}
+
+.header-mid-content {
+    width: 450px;
+    height: 210px;
+}
+
+.header-header {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    line-height: 0.9;
+    margin-bottom: 7px;
+}
+
+.header-text {
+    font-size: 18px;
+    margin: 0 0 7px 3px;
+}
+
+.header-button {
+    padding: 6px 21px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-style: none;
+    margin: 7px 0 0 0;
+}
+
+.header-img {
+    background-color: rgb(113, 124, 137);
+    width: 500px;
+    height: 100%;
+    text-align: center;
+}
+
+img {
+    padding: 95.5px 0;
+}
+
+.info-box-box {
+    width: 100vw;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-box {
+    width: 60vw;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-img-box > div {
+    height: 70%;
+    width: 20%;
+}
+
+
